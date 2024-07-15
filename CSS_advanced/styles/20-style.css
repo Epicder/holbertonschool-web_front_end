@@ -181,6 +181,12 @@ ul.row{
     --section-tagline-margin: 0;
 }
 
+.row::after {
+  content: none;
+  display: table;
+  clear: both;
+}
+
 .footer {
   padding: var(--footer-padding);
 }
